@@ -23,7 +23,7 @@ Before you can use Azure OpenAI models, you must provision an Azure OpenAI resou
 
    ![](../media/openai8.png)
 
-2. On **Azure AI Services | Azure OpenAI** blade, click on **Create**.
+2. On **Azure AI Services | Azure OpenAI** blade, click on **+ Create**.
 
    ![](../media/openai_create1.png)
 
@@ -81,7 +81,7 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio**, that you
     - **Model version**: Auto-update to default (2)<br>
     - **Deployment type**: Standard (3)
     - **Deployment name**: my-gpt-model (4)
-    - Click on **Advanced Settings** (5)
+    - Click on **Advanced options** (5)
     - **Tokens per Minute Rate Limit (thousands)**: 10K (6)
     - **Enable dynamic quota**: Enabled (7)
     - Click on **Create** (8)
@@ -158,7 +158,7 @@ The *Chat* playground provides a chatbot interface for GPT 3.5 and higher models
 
 You can use the prompt and parameters to maximize the likelihood of generating the response you need.
 
-1. In the **Configuration** pane select **Parameter** , set the following parameter values:
+1. In the **Configuration** pane select **Parameters** , set the following parameter values:
     
     - **Temperature**: 0
     
@@ -193,11 +193,15 @@ In addition to generating natural language responses, you can use GPT models to 
 
 1. In the **Setup** pane, select the **Empty Example** template to reset the system message.
 
+      > **Note**: If Update system message? tab opens, select **Continue**.
+
 2. Enter the system message: `You are a Python developer.` and save the changes by clicking on **Apply Changes**.
 
       ![](../media/chatpt.png)
 
-3. In the **Chat session** pane, select **Clear chat** to clear the chat history and start a new session.
+      > **Note**: If Update system message? tab opens, select **Continue**.
+
+3. In the **Chat session** pane, select **Clear chat** and then click **Clear** to clear the chat history and start a new session.
 
 4. Submit the following user message:
 
